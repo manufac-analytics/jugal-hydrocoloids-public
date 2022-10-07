@@ -1,2 +1,1 @@
-# jugal-hydrocoloids-public
-Deployment Bundle of Jugal Hydrocoloids
+- Deployment Bundle of Jugal Hydrocoloids
