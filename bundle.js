@@ -45813,141 +45813,6 @@ const ImageListItemBar = /*#__PURE__*/react.forwardRef(function ImageListItemBar
 });
  false ? 0 : void 0;
 /* harmony default export */ const ImageListItemBar_ImageListItemBar = (ImageListItemBar);
-;// CONCATENATED MODULE: ./node_modules/@mui/material/esm/Card/cardClasses.js
-
-function getCardUtilityClass(slot) {
-  return generateUtilityClass_generateUtilityClass('MuiCard', slot);
-}
-const cardClasses = generateUtilityClasses('MuiCard', ['root']);
-/* harmony default export */ const Card_cardClasses = ((/* unused pure expression or super */ null && (cardClasses)));
-;// CONCATENATED MODULE: ./node_modules/@mui/material/esm/Card/Card.js
-
-
-const Card_excluded = ["className", "raised"];
-
-
-
-
-
-
-
-
-
-
-
-const Card_useUtilityClasses = ownerState => {
-  const {
-    classes
-  } = ownerState;
-  const slots = {
-    root: ['root']
-  };
-  return composeClasses(slots, getCardUtilityClass, classes);
-};
-
-const CardRoot = styles_styled(Paper_Paper, {
-  name: 'MuiCard',
-  slot: 'Root',
-  overridesResolver: (props, styles) => styles.root
-})(() => {
-  return {
-    overflow: 'hidden'
-  };
-});
-const Card = /*#__PURE__*/react.forwardRef(function Card(inProps, ref) {
-  const props = useThemeProps_useThemeProps({
-    props: inProps,
-    name: 'MuiCard'
-  });
-
-  const {
-    className,
-    raised = false
-  } = props,
-        other = objectWithoutPropertiesLoose_objectWithoutPropertiesLoose(props, Card_excluded);
-
-  const ownerState = extends_extends({}, props, {
-    raised
-  });
-
-  const classes = Card_useUtilityClasses(ownerState);
-  return /*#__PURE__*/(0,jsx_runtime.jsx)(CardRoot, extends_extends({
-    className: clsx_m(classes.root, className),
-    elevation: raised ? 8 : undefined,
-    ref: ref,
-    ownerState: ownerState
-  }, other));
-});
- false ? 0 : void 0;
-/* harmony default export */ const Card_Card = (Card);
-;// CONCATENATED MODULE: ./node_modules/@mui/material/esm/CardContent/cardContentClasses.js
-
-function getCardContentUtilityClass(slot) {
-  return generateUtilityClass_generateUtilityClass('MuiCardContent', slot);
-}
-const cardContentClasses = generateUtilityClasses('MuiCardContent', ['root']);
-/* harmony default export */ const CardContent_cardContentClasses = ((/* unused pure expression or super */ null && (cardContentClasses)));
-;// CONCATENATED MODULE: ./node_modules/@mui/material/esm/CardContent/CardContent.js
-
-
-const CardContent_excluded = ["className", "component"];
-
-
-
-
-
-
-
-
-
-const CardContent_useUtilityClasses = ownerState => {
-  const {
-    classes
-  } = ownerState;
-  const slots = {
-    root: ['root']
-  };
-  return composeClasses(slots, getCardContentUtilityClass, classes);
-};
-
-const CardContentRoot = styles_styled('div', {
-  name: 'MuiCardContent',
-  slot: 'Root',
-  overridesResolver: (props, styles) => styles.root
-})(() => {
-  return {
-    padding: 16,
-    '&:last-child': {
-      paddingBottom: 24
-    }
-  };
-});
-const CardContent = /*#__PURE__*/react.forwardRef(function CardContent(inProps, ref) {
-  const props = useThemeProps_useThemeProps({
-    props: inProps,
-    name: 'MuiCardContent'
-  });
-
-  const {
-    className,
-    component = 'div'
-  } = props,
-        other = objectWithoutPropertiesLoose_objectWithoutPropertiesLoose(props, CardContent_excluded);
-
-  const ownerState = extends_extends({}, props, {
-    component
-  });
-
-  const classes = CardContent_useUtilityClasses(ownerState);
-  return /*#__PURE__*/(0,jsx_runtime.jsx)(CardContentRoot, extends_extends({
-    as: component,
-    className: clsx_m(classes.root, className),
-    ownerState: ownerState,
-    ref: ref
-  }, other));
-});
- false ? 0 : void 0;
-/* harmony default export */ const CardContent_CardContent = (CardContent);
 // EXTERNAL MODULE: ./node_modules/react-typed/dist/react-typed.js
 var react_typed = __webpack_require__(7788);
 var react_typed_default = /*#__PURE__*/__webpack_require__.n(react_typed);
@@ -46004,22 +45869,25 @@ const wheat_namespaceObject = __webpack_require__.p + "e730b71fb03fed7335ec.jpg"
 
 
 
-const Categories = [
+const IndustrialGrade = [
     {
-        grade: "Fast Hydrating",
-        industry: "Petroleum/ Oil and Gas",
-        uses: "Drilling Fluids",
+        grade: "Industrial Grade",
+        industry: "Petroleum, Oil & Gas",
+        uses: "Drilling fluids",
         functions: "As a surfactant to form a viscous pseudo-plastic sol",
-        properties: "Thickening agent, Fluid-loss controlling agent",
+        properties: "Thickening agent, fluid-loss controlling agent",
         imageURL: petroleum1_namespaceObject,
+        rows: 2,
+        cols: 2,
     },
     {
         grade: "Industrial Grade",
-        industry: "Petroleum/ Oil and Gas",
+        industry: "Petroleum, Oil & Gas",
         uses: "Hydraulic Fracturing",
         functions: "To carry the proppant, binder",
-        properties: "Visco-elasticity, Viscosity, Suspension, Turbulence, Mobility, Friction reduction",
+        properties: "Visco-elasticity, viscosity, suspension, turbulence, mobility, friction reduction",
         imageURL: oilandgas_namespaceObject,
+        rows: 2,
     },
     {
         grade: "Industrial Grade",
@@ -46028,14 +45896,25 @@ const Categories = [
         functions: "Liquid-solid separation during extraction of precious ores, depressant for talc or insoluble gangue mined along with minerals and ores",
         properties: "As a flocculant and froth flotation agent",
         imageURL: mining_namespaceObject,
+        rows: 2,
     },
     {
         grade: "Industrial Grade",
         industry: "Textiles",
-        uses: "Wool sizing, Cotton, Rayon silk, Carpet printing",
+        uses: "Wool sizing, cotton, rayon silk, carpet printing",
         functions: "Reduces warp breakage, reduces dusting while sizing",
         properties: "Excellent film forming and thickening properties",
         imageURL: textile_namespaceObject,
+        rows: 2,
+    },
+    {
+        grade: "Industrial Grade",
+        industry: "Explosives",
+        uses: "Water-resistant ammonium nitrate stick explosives, and slurry explosives",
+        functions: "As a waterproofing agent after mixing with ammonium nitrate, nitroglycerin, etc.",
+        properties: "Better gelling agent, thickener, water blocking properties",
+        imageURL: explosive_namespaceObject,
+        rows: 2,
     },
     {
         grade: "Industrial Grade",
@@ -46044,15 +45923,11 @@ const Categories = [
         functions: "Imparts improved erosive and writing properties, improves sheet formation, makes surface denser for printing",
         properties: "Binding agent, pulp hydration",
         imageURL: paper_namespaceObject,
+        rows: 2,
+        cols: 2,
     },
-    {
-        grade: "Industrial Grade",
-        industry: "Explosives",
-        uses: "Water-resistant ammonium nitrate stick explosive and slurry explosive",
-        functions: "As a waterproofing agent after mixing with ammonium nitrate, nitroglycerin, etc.",
-        properties: "Better gelling agent, thickener, water blocking properties",
-        imageURL: explosive_namespaceObject,
-    },
+];
+const FoodGrade = [
     {
         grade: "Food Grade",
         industry: "Pharmaceuticals",
@@ -46060,14 +45935,17 @@ const Categories = [
         functions: "A binder or disintegrator in tablets, controlled drug delivery systems",
         properties: "Soluble dietary fibre, swelling behaviour",
         imageURL: pharmacueticals_namespaceObject,
+        rows: 2,
+        cols: 2,
     },
     {
         grade: "Food Grade",
         industry: "Pharmaceuticals",
-        uses: "Laxative",
+        uses: "Laxatives",
         functions: "As a main ingredient",
         properties: "Bulking agent",
         imageURL: lexative_namespaceObject,
+        rows: 2,
     },
     {
         grade: "Food Grade",
@@ -46076,6 +45954,7 @@ const Categories = [
         functions: "Controls crystal growth, freezing point, prevents moisture loss, reduces freezer burn",
         properties: "Water retention ability, ice crystal inhibitor",
         imageURL: frozenfood_namespaceObject,
+        rows: 2,
     },
     {
         grade: "Food Grade",
@@ -46084,6 +45963,7 @@ const Categories = [
         functions: "Improving texture after sterlisation",
         properties: "Stabilizer, texture improvment",
         imageURL: dairyproducts_namespaceObject,
+        rows: 2,
     },
     {
         grade: "Food Grade",
@@ -46092,6 +45972,7 @@ const Categories = [
         functions: "Prolonged shelf life, moisture retention",
         properties: "Free-water absorber, stickiness preventer",
         imageURL: bakery_namespaceObject,
+        rows: 2,
     },
     {
         grade: "Food Grade",
@@ -46100,6 +45981,8 @@ const Categories = [
         functions: "Granulating and suspending agent",
         properties: "As a viscosifier",
         imageURL: petfood_namespaceObject,
+        rows: 2,
+        cols: 2,
     },
     {
         grade: "Food Grade",
@@ -46108,6 +45991,8 @@ const Categories = [
         functions: "Viscosity and bloom control",
         properties: "Glazing agent, moisture retention, viscosifier",
         imageURL: confectionery_namespaceObject,
+        rows: 2,
+        cols: 2,
     },
     {
         grade: "Food Grade",
@@ -46116,6 +46001,8 @@ const Categories = [
         functions: "Viscosity control, improves mouth feel",
         properties: "Viscosifier",
         imageURL: beverages_namespaceObject,
+        rows: 2,
+        cols: 2,
     },
     {
         grade: "Food Grade",
@@ -46124,12 +46011,18 @@ const Categories = [
         functions: "Improves free flowing properties",
         properties: "Emulsion stabilizer, thickening agent",
         imageURL: sausage_namespaceObject,
+        rows: 2,
+        cols: 4,
     },
 ];
+function srcset(image, size, rows = 1, cols = 1) {
+    return {
+        src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
+        srcSet: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format&dpr=2 2x`,
+    };
+}
 function Home() {
     const { t } = useTranslation();
-    const theme = styles_useTheme_useTheme();
-    const matches = useMediaQuery(theme.breakpoints.down("md"));
     return ((0,jsx_runtime.jsxs)(jsx_runtime.Fragment, { children: [(0,jsx_runtime.jsx)(Container_Container, Object.assign({ sx: {
                     backgroundImage: `url('${wheat_namespaceObject}')`,
                     height: "50vh",
@@ -46137,7 +46030,7 @@ function Home() {
                     width: "100%",
                     backgroundColor: "transparent",
                     borderRadius: "15px",
-                }, maxWidth: "xl" }, { children: (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, justifyContent: "center", alignContent: "center", height: "100%" }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h1" }, { children: (0,jsx_runtime.jsx)((react_typed_default()), { strings: ["Guar Gum Powder", "Guar Splits", "Guar Meal"], typeSpeed: 40, backSpeed: 50, backDelay: 2000, loop: true, style: { color: "#FFFFF0", fontWeight: 500 } }) })) })) })), (0,jsx_runtime.jsx)(Container_Container, Object.assign({ sx: { marginTop: 2 }, maxWidth: "xl" }, { children: (0,jsx_runtime.jsxs)(Grid_Grid, Object.assign({ container: true, spacing: 2 }, { children: [(0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h6" }, { children: "About Us" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1" }, { children: t("IntroA") })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1" }, { children: t("IntroB") })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1" }, { children: t("IntroC") })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h6" }, { children: "Guar Applications" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(ImageList_ImageList, Object.assign({ cols: 3, gap: 10 }, { children: Categories.map(({ grade, industry, uses, imageURL }) => ((0,jsx_runtime.jsxs)(ImageListItem_ImageListItem, Object.assign({ cols: matches === true ? 3 : 1 }, { children: [(0,jsx_runtime.jsx)("img", { src: imageURL, alt: industry }), (0,jsx_runtime.jsx)(ImageListItemBar_ImageListItemBar, { title: grade, subtitle: industry, position: "top" }), (0,jsx_runtime.jsx)(Card_Card, { children: (0,jsx_runtime.jsx)(CardContent_CardContent, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1" }, { children: uses })) }) })] })))) })) }))] })) }))] }));
+                }, maxWidth: "xl" }, { children: (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, justifyContent: "center", alignContent: "center", height: "100%" }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h1" }, { children: (0,jsx_runtime.jsx)((react_typed_default()), { strings: ["Guar Gum Powder", "Guar Splits", "Guar Meal"], typeSpeed: 40, backSpeed: 50, backDelay: 2000, loop: true, style: { color: "#FFFFF0", fontWeight: 500 } }) })) })) })), (0,jsx_runtime.jsx)(Container_Container, Object.assign({ sx: { marginTop: 2 }, maxWidth: "xl" }, { children: (0,jsx_runtime.jsxs)(Grid_Grid, Object.assign({ container: true, spacing: 2 }, { children: [(0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h6" }, { children: "About Us" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1" }, { children: t("IntroA") })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1" }, { children: t("IntroB") })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1" }, { children: t("IntroC") })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h6" }, { children: "Industrial Grade Guar Applications" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(ImageList_ImageList, Object.assign({ sx: { width: "100%" }, variant: "quilted", cols: 4, gap: 10, rowHeight: 150 }, { children: IndustrialGrade.map(({ industry, uses, imageURL, cols, rows }) => ((0,jsx_runtime.jsxs)(ImageListItem_ImageListItem, Object.assign({ cols: cols !== null && cols !== void 0 ? cols : 1, rows: rows !== null && rows !== void 0 ? rows : 1 }, { children: [(0,jsx_runtime.jsx)("img", Object.assign({}, srcset(imageURL, 150, rows, cols), { alt: industry, loading: "lazy" })), (0,jsx_runtime.jsx)(ImageListItemBar_ImageListItemBar, { title: industry, subtitle: uses, position: "top" })] })))) })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h6" }, { children: "Food Grade Guar Applications" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(ImageList_ImageList, Object.assign({ sx: { width: "100%" }, variant: "quilted", cols: 4, gap: 10, rowHeight: 150 }, { children: FoodGrade.map(({ industry, uses, imageURL, cols, rows }) => ((0,jsx_runtime.jsxs)(ImageListItem_ImageListItem, Object.assign({ cols: cols !== null && cols !== void 0 ? cols : 1, rows: rows !== null && rows !== void 0 ? rows : 1 }, { children: [(0,jsx_runtime.jsx)("img", Object.assign({}, srcset(imageURL, 150, rows, cols), { alt: industry, loading: "lazy" })), (0,jsx_runtime.jsx)(ImageListItemBar_ImageListItemBar, { title: industry, subtitle: uses, position: "top" })] })))) })) }))] })) }))] }));
 }
 
 ;// CONCATENATED MODULE: ./node_modules/@mui/material/esm/internal/svg-icons/Person.js
