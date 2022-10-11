@@ -45303,7 +45303,7 @@ const TableBody = /*#__PURE__*/react.forwardRef(function TableBody(inProps, ref)
  false ? 0 : void 0;
 /* harmony default export */ const TableBody_TableBody = (TableBody);
 ;// CONCATENATED MODULE: ./src/images/warehouse.jpg
-const warehouse_namespaceObject = __webpack_require__.p + "b32af2b67d7e176d74b1.jpg";
+const warehouse_namespaceObject = __webpack_require__.p + "e50e388a53e834beba2b.jpg";
 ;// CONCATENATED MODULE: ./src/pages/Exports/index.tsx
 
 
@@ -46256,7 +46256,7 @@ const Avatar = /*#__PURE__*/react.forwardRef(function Avatar(inProps, ref) {
 ;// CONCATENATED MODULE: ./src/images/manufacturing.jpg
 const manufacturing_namespaceObject = __webpack_require__.p + "0ba5e6ef4c93d3bfa7d6.jpg";
 ;// CONCATENATED MODULE: ./src/images/research.jpg
-const research_namespaceObject = __webpack_require__.p + "6e9aec556c0ca452077a.jpg";
+const research_namespaceObject = __webpack_require__.p + "e67308d1227f1cab3136.jpg";
 ;// CONCATENATED MODULE: ./src/pages/Manufacturing/index.tsx
 
 
