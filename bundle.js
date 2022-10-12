@@ -43940,7 +43940,7 @@ function CustomMobileAppBar({ darkMode, setDarkMode, language, changeLanguage, }
         changeLanguage(value);
     };
     const onRenderValue = (val) => {
-        return (0,jsx_runtime.jsx)(IconButton_IconButton, { children: LanguageDictionary[val].icon });
+        return (0,jsx_runtime.jsx)(IconButton_IconButton, Object.assign({ sx: { padding: 0 } }, { children: LanguageDictionary[val].icon }));
     };
     const handleToggleDarkMode = () => {
         setDarkMode((previousState) => !previousState);
@@ -43951,7 +43951,7 @@ function CustomMobileAppBar({ darkMode, setDarkMode, language, changeLanguage, }
     const handleDrawerClose = () => {
         setDrawerOpen(false);
     };
-    return ((0,jsx_runtime.jsxs)(jsx_runtime.Fragment, { children: [(0,jsx_runtime.jsx)(AppBar_AppBar, Object.assign({ position: "static" }, { children: (0,jsx_runtime.jsxs)(Toolbar_Toolbar, { children: [(0,jsx_runtime.jsx)(Box_Box, { component: "img", alt: "logo", src: "https://manufac-analytics-images.s3.ap-south-1.amazonaws.com/logos/landscape/black/Manufac_Final-2.png", sx: { width: "150px" } }), (0,jsx_runtime.jsxs)(Stack_Stack, Object.assign({ direction: "row", spacing: 0.5, justifyContent: "flex-end", sx: { width: "100%" } }, { children: [(0,jsx_runtime.jsx)(Select_Select, Object.assign({ value: language, onChange: handleLanguageChange, variant: "outlined", renderValue: onRenderValue, sx: { height: "40px" } }, { children: Object.entries(LanguageDictionary)
+    return ((0,jsx_runtime.jsxs)(jsx_runtime.Fragment, { children: [(0,jsx_runtime.jsx)(AppBar_AppBar, Object.assign({ position: "static" }, { children: (0,jsx_runtime.jsxs)(Toolbar_Toolbar, { children: [(0,jsx_runtime.jsx)(Box_Box, { component: "img", alt: "logo", src: "https://manufac-analytics-images.s3.ap-south-1.amazonaws.com/logos/landscape/black/Manufac_Final-2.png", sx: { width: "150px" } }), (0,jsx_runtime.jsxs)(Stack_Stack, Object.assign({ direction: "row", justifyContent: "flex-end", sx: { width: "100%", paddingLeft: 2 } }, { children: [(0,jsx_runtime.jsx)(Select_Select, Object.assign({ value: language, onChange: handleLanguageChange, variant: "outlined", renderValue: onRenderValue, sx: { height: "40px" } }, { children: Object.entries(LanguageDictionary)
                                         .sort(([, { longForm: a }], [, { longForm: b }]) => {
                                         return a.localeCompare(b);
                                     })
