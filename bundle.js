@@ -169,6 +169,29 @@ ___CSS_LOADER_EXPORT___.push([module.id, "/* roboto-cyrillic-ext-700-normal*/\n@
 
 /***/ }),
 
+/***/ 9482:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7537);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3645);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "/* Hide scrollbar for IE, Edge and Firefox */\n.container-scroll {\n  -ms-overflow-style: none; /* IE and Edge */\n  scrollbar-width: none; /* Firefox */\n  perspective: 0px; /* Fixes disappearing texts on scrolling in the topmost parallax layer */\n}\n\n/* Hide scrollbar for Chrome, Safari and Opera */\n.container-scroll::-webkit-scrollbar {\n  display: none;\n}\n", "",{"version":3,"sources":["webpack://./src/pages/Products/index.css"],"names":[],"mappings":"AAAA,4CAA4C;AAC5C;EACE,wBAAwB,EAAE,gBAAgB;EAC1C,qBAAqB,EAAE,YAAY;EACnC,gBAAgB,EAAE,wEAAwE;AAC5F;;AAEA,gDAAgD;AAChD;EACE,aAAa;AACf","sourcesContent":["/* Hide scrollbar for IE, Edge and Firefox */\n.container-scroll {\n  -ms-overflow-style: none; /* IE and Edge */\n  scrollbar-width: none; /* Firefox */\n  perspective: 0px; /* Fixes disappearing texts on scrolling in the topmost parallax layer */\n}\n\n/* Hide scrollbar for Chrome, Safari and Opera */\n.container-scroll::-webkit-scrollbar {\n  display: none;\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ 3645:
 /***/ ((module) => {
 
@@ -46040,6 +46063,8 @@ function srcset(image, size, rows = 1, cols = 1) {
 }
 function Home() {
     const { t } = useTranslation();
+    const theme = styles_useTheme_useTheme();
+    const matches = useMediaQuery(theme.breakpoints.down("sm"));
     const checkedInitialDictionary = [...IndustrialGrade, ...FoodGrade].reduce((acc, curr) => (Object.assign(Object.assign({}, acc), { [curr.imageURL]: false })), {});
     const [isClickedDictionary, setIsClickedDictionary] = (0,react.useState)(checkedInitialDictionary);
     const handleClick = (event) => {
@@ -46054,7 +46079,7 @@ function Home() {
                     width: "100%",
                     backgroundColor: "transparent",
                     borderRadius: "15px",
-                }, maxWidth: "xl" }, { children: (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, justifyContent: "center", alignContent: "center", height: "100%" }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h1" }, { children: (0,jsx_runtime.jsx)((react_typed_default()), { strings: ["Guar Gum Powder", "Guar Splits", "Guar Meal", "Guar Protein"], typeSpeed: 40, backSpeed: 50, backDelay: 2000, loop: true, style: { color: "#FFFFF0", fontWeight: 500 } }) })) })) })), (0,jsx_runtime.jsx)(Container_Container, Object.assign({ sx: { marginTop: 2 }, maxWidth: "xl" }, { children: (0,jsx_runtime.jsxs)(Grid_Grid, Object.assign({ container: true, spacing: 2 }, { children: [(0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h6" }, { children: "About Us" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1" }, { children: t("IntroA") })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1" }, { children: t("IntroB") })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1" }, { children: t("IntroC") })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h6" }, { children: "Industrial Grade Guar Applications" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(ImageList_ImageList, Object.assign({ sx: { width: "100%" }, variant: "quilted", cols: 4, gap: 10, rowHeight: 150 }, { children: IndustrialGrade.map(({ industry, uses, properties, imageURL, cols, rows }) => ((0,jsx_runtime.jsxs)(ImageListItem_ImageListItem, Object.assign({ cols: cols !== null && cols !== void 0 ? cols : 1, rows: rows !== null && rows !== void 0 ? rows : 1 }, { children: [(0,jsx_runtime.jsx)("img", Object.assign({}, srcset(imageURL, 150, rows, cols), { alt: industry, loading: "lazy" })), (0,jsx_runtime.jsx)(ImageListItemBar_ImageListItemBar, { title: industry, subtitle: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ sx: { whiteSpace: "normal" } }, { children: isClickedDictionary[imageURL] === true ? properties : uses })), position: "top", actionIcon: (0,jsx_runtime.jsx)(IconButton_IconButton, Object.assign({ color: "info", onClick: handleClick, "data-id": imageURL }, { children: isClickedDictionary[imageURL] === true ? ((0,jsx_runtime.jsx)(KeyboardArrowUp, {})) : ((0,jsx_runtime.jsx)(KeyboardArrowDown, {})) })) })] }), imageURL))) })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h6" }, { children: "Food Grade Guar Applications" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(ImageList_ImageList, Object.assign({ sx: { width: "100%" }, variant: "quilted", cols: 4, gap: 10, rowHeight: 150 }, { children: FoodGrade.map(({ industry, uses, properties, imageURL, cols, rows }) => ((0,jsx_runtime.jsxs)(ImageListItem_ImageListItem, Object.assign({ cols: cols !== null && cols !== void 0 ? cols : 1, rows: rows !== null && rows !== void 0 ? rows : 1 }, { children: [(0,jsx_runtime.jsx)("img", Object.assign({}, srcset(imageURL, 150, rows, cols), { alt: industry, loading: "lazy" })), (0,jsx_runtime.jsx)(ImageListItemBar_ImageListItemBar, { title: industry, subtitle: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ sx: { whiteSpace: "normal" } }, { children: isClickedDictionary[imageURL] === true ? properties : uses })), position: "top", actionIcon: (0,jsx_runtime.jsx)(IconButton_IconButton, Object.assign({ color: "info", onClick: handleClick, "data-id": imageURL }, { children: isClickedDictionary[imageURL] === true ? ((0,jsx_runtime.jsx)(KeyboardArrowUp, {})) : ((0,jsx_runtime.jsx)(KeyboardArrowDown, {})) })) })] }), imageURL))) })) }))] })) }))] }));
+                }, maxWidth: "xl" }, { children: (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, justifyContent: "center", alignContent: "center", height: "100%" }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h1" }, { children: (0,jsx_runtime.jsx)((react_typed_default()), { strings: ["Guar Gum Powder", "Guar Splits", "Guar Meal", "Guar Protein"], typeSpeed: 40, backSpeed: 50, backDelay: 2000, loop: true, style: { color: "#FFFFF0", fontWeight: 500 } }) })) })) })), (0,jsx_runtime.jsx)(Container_Container, Object.assign({ sx: { marginTop: 2 }, maxWidth: "xl" }, { children: (0,jsx_runtime.jsxs)(Grid_Grid, Object.assign({ container: true, spacing: 2 }, { children: [(0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h6" }, { children: "About Us" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1" }, { children: t("IntroA") })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1" }, { children: t("IntroB") })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1" }, { children: t("IntroC") })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h6" }, { children: "Industrial Grade Guar Applications" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: matches === true ? ((0,jsx_runtime.jsx)(ImageList_ImageList, Object.assign({ cols: 1, gap: 10 }, { children: IndustrialGrade.slice(0, 4).map(({ industry, uses, imageURL, properties }) => ((0,jsx_runtime.jsxs)(ImageListItem_ImageListItem, { children: [(0,jsx_runtime.jsx)("img", Object.assign({}, srcset(imageURL, 150), { alt: industry, loading: "lazy" })), (0,jsx_runtime.jsx)(ImageListItemBar_ImageListItemBar, { title: industry, subtitle: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ sx: { whiteSpace: "normal" } }, { children: isClickedDictionary[imageURL] === true ? properties : uses })), position: "top", actionIcon: (0,jsx_runtime.jsx)(IconButton_IconButton, Object.assign({ color: "info", onClick: handleClick, "data-id": imageURL }, { children: isClickedDictionary[imageURL] === true ? ((0,jsx_runtime.jsx)(KeyboardArrowUp, {})) : ((0,jsx_runtime.jsx)(KeyboardArrowDown, {})) })) })] }, imageURL))) }))) : ((0,jsx_runtime.jsx)(ImageList_ImageList, Object.assign({ sx: { width: "100%" }, variant: "quilted", cols: 4, gap: 10, rowHeight: 150 }, { children: IndustrialGrade.map(({ industry, uses, imageURL, cols, rows, properties }) => ((0,jsx_runtime.jsxs)(ImageListItem_ImageListItem, Object.assign({ cols: cols !== null && cols !== void 0 ? cols : 1, rows: rows !== null && rows !== void 0 ? rows : 1 }, { children: [(0,jsx_runtime.jsx)("img", Object.assign({}, srcset(imageURL, 150, rows, cols), { alt: industry, loading: "lazy" })), (0,jsx_runtime.jsx)(ImageListItemBar_ImageListItemBar, { title: industry, subtitle: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ sx: { whiteSpace: "normal" } }, { children: isClickedDictionary[imageURL] === true ? properties : uses })), position: "top", actionIcon: (0,jsx_runtime.jsx)(IconButton_IconButton, Object.assign({ color: "info", onClick: handleClick, "data-id": imageURL }, { children: isClickedDictionary[imageURL] === true ? ((0,jsx_runtime.jsx)(KeyboardArrowUp, {})) : ((0,jsx_runtime.jsx)(KeyboardArrowDown, {})) })) })] }), imageURL))) }))) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "h6" }, { children: "Food Grade Guar Applications" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: matches === true ? ((0,jsx_runtime.jsx)(ImageList_ImageList, Object.assign({ cols: 1, gap: 10 }, { children: FoodGrade.slice(0, 4).map(({ industry, uses, imageURL, properties }) => ((0,jsx_runtime.jsxs)(ImageListItem_ImageListItem, { children: [(0,jsx_runtime.jsx)("img", Object.assign({}, srcset(imageURL, 150), { alt: industry, loading: "lazy" })), (0,jsx_runtime.jsx)(ImageListItemBar_ImageListItemBar, { title: industry, subtitle: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ sx: { whiteSpace: "normal" } }, { children: isClickedDictionary[imageURL] === true ? properties : uses })), position: "top", actionIcon: (0,jsx_runtime.jsx)(IconButton_IconButton, Object.assign({ color: "info", onClick: handleClick, "data-id": imageURL }, { children: isClickedDictionary[imageURL] === true ? ((0,jsx_runtime.jsx)(KeyboardArrowUp, {})) : ((0,jsx_runtime.jsx)(KeyboardArrowDown, {})) })) })] }, imageURL))) }))) : ((0,jsx_runtime.jsx)(ImageList_ImageList, Object.assign({ sx: { width: "100%" }, variant: "quilted", cols: 4, gap: 10, rowHeight: 150 }, { children: FoodGrade.map(({ industry, uses, imageURL, cols, rows, properties }) => ((0,jsx_runtime.jsxs)(ImageListItem_ImageListItem, Object.assign({ cols: cols !== null && cols !== void 0 ? cols : 1, rows: rows !== null && rows !== void 0 ? rows : 1 }, { children: [(0,jsx_runtime.jsx)("img", Object.assign({}, srcset(imageURL, 150, rows, cols), { alt: industry, loading: "lazy" })), (0,jsx_runtime.jsx)(ImageListItemBar_ImageListItemBar, { title: industry, subtitle: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ sx: { whiteSpace: "normal" } }, { children: isClickedDictionary[imageURL] === true ? properties : uses })), position: "top", actionIcon: (0,jsx_runtime.jsx)(IconButton_IconButton, Object.assign({ color: "info", onClick: handleClick, "data-id": imageURL }, { children: isClickedDictionary[imageURL] === true ? ((0,jsx_runtime.jsx)(KeyboardArrowUp, {})) : ((0,jsx_runtime.jsx)(KeyboardArrowDown, {})) })) })] }), imageURL))) }))) }))] })) }))] }));
 }
 
 ;// CONCATENATED MODULE: ./node_modules/@mui/material/esm/internal/svg-icons/Person.js
@@ -50843,7 +50868,39 @@ const Parallax = react.memo(react.forwardRef((props, ref) => {
 
 ;// CONCATENATED MODULE: ./src/images/guar-gum-powder.jpg
 const guar_gum_powder_namespaceObject = __webpack_require__.p + "83d5ec335d2b66017903.jpg";
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/pages/Products/index.css
+var Products = __webpack_require__(9482);
+;// CONCATENATED MODULE: ./src/pages/Products/index.css
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var Products_options = {};
+
+Products_options.styleTagTransform = (styleTagTransform_default());
+Products_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      Products_options.insert = insertBySelector_default().bind(null, "head");
+    
+Products_options.domAPI = (styleDomAPI_default());
+Products_options.insertStyleElement = (insertStyleElement_default());
+
+var Products_update = injectStylesIntoStyleTag_default()(Products/* default */.Z, Products_options);
+
+
+
+
+       /* harmony default export */ const pages_Products = (Products/* default */.Z && Products/* default.locals */.Z.locals ? Products/* default.locals */.Z.locals : undefined);
+
 ;// CONCATENATED MODULE: ./src/pages/Products/index.tsx
+
 
 
 
@@ -50880,8 +50937,8 @@ const products = [
         imageURL: guar_gum_powder_namespaceObject,
     },
 ];
-function Products() {
-    return ((0,jsx_runtime.jsx)(Parallax, Object.assign({ pages: 5, style: { height: "100vh", position: "static" } }, { children: products.map(({ title, para1, para2, imageURL }, idx) => ((0,jsx_runtime.jsx)(ParallaxLayer, Object.assign({ offset: idx, speed: 0.5, style: { backgroundImage: `url('${imageURL}')`, backgroundSize: "cover" } }, { children: (0,jsx_runtime.jsx)(Container_Container, { children: (0,jsx_runtime.jsxs)(Grid_Grid, Object.assign({ container: true, item: true, spacing: 2, direction: "column" }, { children: [(0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ item: true }, { children: (0,jsx_runtime.jsxs)(ListItem_ListItem, { children: [(0,jsx_runtime.jsx)(ListItemIcon_ListItemIcon, { children: (0,jsx_runtime.jsx)(Avatar_Avatar, { children: idx + 1 }) }), (0,jsx_runtime.jsx)(ListItemText_ListItemText, Object.assign({ primaryTypographyProps: { variant: "h6" } }, { children: title }))] }) })), (0,jsx_runtime.jsxs)(Grid_Grid, Object.assign({ container: true, item: true, spacing: 2, direction: "column" }, { children: [(0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: para1 })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: para2 })) }))] }))] })) }) }), title))) })));
+function Products_Products() {
+    return ((0,jsx_runtime.jsx)(Parallax, Object.assign({ pages: 5, style: { height: "100vh", position: "static" }, className: "container-scroll" }, { children: products.map(({ title, para1, para2, imageURL }, idx) => ((0,jsx_runtime.jsx)(ParallaxLayer, Object.assign({ offset: idx, speed: 0.5, style: { backgroundImage: `url('${imageURL}')`, backgroundSize: "cover" } }, { children: (0,jsx_runtime.jsx)(Container_Container, { children: (0,jsx_runtime.jsxs)(Grid_Grid, Object.assign({ container: true, item: true, spacing: 2, direction: "column" }, { children: [(0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ item: true }, { children: (0,jsx_runtime.jsxs)(ListItem_ListItem, { children: [(0,jsx_runtime.jsx)(ListItemIcon_ListItemIcon, { children: (0,jsx_runtime.jsx)(Avatar_Avatar, { children: idx + 1 }) }), (0,jsx_runtime.jsx)(ListItemText_ListItemText, Object.assign({ primaryTypographyProps: { variant: "h6" } }, { children: title }))] }) })), (0,jsx_runtime.jsxs)(Grid_Grid, Object.assign({ container: true, item: true, spacing: 2, direction: "column" }, { children: [(0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: para1 })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: para2 })) }))] }))] })) }) }), title))) })));
 }
 
 ;// CONCATENATED MODULE: ./src/router.tsx
@@ -50914,7 +50971,7 @@ const router_Router = createHashRouter([
             },
             {
                 path: "products",
-                element: (0,jsx_runtime.jsx)(Products, {}),
+                element: (0,jsx_runtime.jsx)(Products_Products, {}),
             },
             {
                 path: "contact",
