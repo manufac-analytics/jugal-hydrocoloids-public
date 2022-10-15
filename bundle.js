@@ -45328,8 +45328,8 @@ const TableBody = /*#__PURE__*/react.forwardRef(function TableBody(inProps, ref)
 });
  false ? 0 : void 0;
 /* harmony default export */ const TableBody_TableBody = (TableBody);
-;// CONCATENATED MODULE: ./src/images/warehouse.jpg
-const warehouse_namespaceObject = __webpack_require__.p + "e50e388a53e834beba2b.jpg";
+;// CONCATENATED MODULE: ./src/images/warehouse.jpg?as=webp
+const warehouseas_webp_namespaceObject = __webpack_require__.p + "1ecf520c7e435424f32f.webp";
 ;// CONCATENATED MODULE: ./src/pages/Exports/index.tsx
 
 
@@ -45379,7 +45379,7 @@ function Exports() {
     const onEnquireNowClick = () => {
         setOpenEnquiryDialog(true);
     };
-    return ((0,jsx_runtime.jsxs)(jsx_runtime.Fragment, { children: [(0,jsx_runtime.jsx)(Container_Container, { children: (0,jsx_runtime.jsxs)(Grid_Grid, Object.assign({ container: true, item: true, spacing: 4, direction: "column" }, { children: [(0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true, justifyContent: "center" }, { children: (0,jsx_runtime.jsx)(Box_Box, { component: "img", src: warehouse_namespaceObject, alt: "Warehouse", width: "60%" }) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: "Here are some of the common packaging requirements that we typically receive. Please send us a message if you have any other custom packaging request and we'll try our best to accomodate it." })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(TableContainer_TableContainer, Object.assign({ component: Paper_Paper }, { children: (0,jsx_runtime.jsxs)(Table_Table, { children: [(0,jsx_runtime.jsx)(TableHead_TableHead, { children: (0,jsx_runtime.jsxs)(TableRow_TableRow, { children: [(0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: "Packaging Style" })), (0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: "Net Weight (kg) per unit" })), (0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: "Net Weight (lb) per unit" }))] }) }), (0,jsx_runtime.jsx)(TableBody_TableBody, { children: Packagings.map(({ description, packagingKg, packagingLb }, idx) => ((0,jsx_runtime.jsxs)(TableRow_TableRow, { children: [(0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: description })), (0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: packagingKg })), (0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: packagingLb }))] }, idx))) })] }) })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsxs)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: ["We offer shipments with and without ", (0,jsx_runtime.jsx)("b", { children: "pallet packaging" }), " as well. A", " ", (0,jsx_runtime.jsx)("b", { children: "1 x 20' FCL" }), " (full container load) weighs around ", (0,jsx_runtime.jsx)("b", { children: "20 MT" }), " when packed without palletizing and ", (0,jsx_runtime.jsx)("b", { children: "18 MT" }), " with palletizing."] })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true, justifyContent: "flex-end" }, { children: (0,jsx_runtime.jsx)(Button_Button, Object.assign({ variant: "contained", onClick: onEnquireNowClick, startIcon: (0,jsx_runtime.jsx)(Send, {}) }, { children: "Enquire Now" })) }))] })) }), (0,jsx_runtime.jsx)(EnquiryDialog, { open: openEnquiryDialog, setOpen: setOpenEnquiryDialog })] }));
+    return ((0,jsx_runtime.jsxs)(jsx_runtime.Fragment, { children: [(0,jsx_runtime.jsx)(Container_Container, { children: (0,jsx_runtime.jsxs)(Grid_Grid, Object.assign({ container: true, item: true, spacing: 4, direction: "column" }, { children: [(0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true, justifyContent: "center" }, { children: (0,jsx_runtime.jsx)(Box_Box, { component: "img", src: warehouseas_webp_namespaceObject, alt: "Warehouse", width: "60%" }) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: "Here are some of the common packaging requirements that we typically receive. Please send us a message if you have any other custom packaging request and we'll try our best to accomodate it." })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(TableContainer_TableContainer, Object.assign({ component: Paper_Paper }, { children: (0,jsx_runtime.jsxs)(Table_Table, { children: [(0,jsx_runtime.jsx)(TableHead_TableHead, { children: (0,jsx_runtime.jsxs)(TableRow_TableRow, { children: [(0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: "Packaging Style" })), (0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: "Net Weight (kg) per unit" })), (0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: "Net Weight (lb) per unit" }))] }) }), (0,jsx_runtime.jsx)(TableBody_TableBody, { children: Packagings.map(({ description, packagingKg, packagingLb }, idx) => ((0,jsx_runtime.jsxs)(TableRow_TableRow, { children: [(0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: description })), (0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: packagingKg })), (0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: packagingLb }))] }, idx))) })] }) })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsxs)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: ["We offer shipments with and without ", (0,jsx_runtime.jsx)("b", { children: "pallet packaging" }), " as well. A", " ", (0,jsx_runtime.jsx)("b", { children: "1 x 20' FCL" }), " (full container load) weighs around ", (0,jsx_runtime.jsx)("b", { children: "20 MT" }), " when packed without palletizing and ", (0,jsx_runtime.jsx)("b", { children: "18 MT" }), " with palletizing."] })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true, justifyContent: "flex-end" }, { children: (0,jsx_runtime.jsx)(Button_Button, Object.assign({ variant: "contained", onClick: onEnquireNowClick, startIcon: (0,jsx_runtime.jsx)(Send, {}) }, { children: "Enquire Now" })) }))] })) }), (0,jsx_runtime.jsx)(EnquiryDialog, { open: openEnquiryDialog, setOpen: setOpenEnquiryDialog })] }));
 }
 
 ;// CONCATENATED MODULE: ./node_modules/@mui/icons-material/esm/Info.js
@@ -45848,38 +45848,38 @@ const ImageListItemBar = /*#__PURE__*/react.forwardRef(function ImageListItemBar
 // EXTERNAL MODULE: ./node_modules/react-typed/dist/react-typed.js
 var react_typed = __webpack_require__(7788);
 var react_typed_default = /*#__PURE__*/__webpack_require__.n(react_typed);
-;// CONCATENATED MODULE: ./src/images/wheat.jpg
-const wheat_namespaceObject = __webpack_require__.p + "e730b71fb03fed7335ec.jpg";
-;// CONCATENATED MODULE: ./src/images/bakery.jpg
-const bakery_namespaceObject = __webpack_require__.p + "b2db55000d0fbecf8f08.jpg";
-;// CONCATENATED MODULE: ./src/images/beverages.jpg
-const beverages_namespaceObject = __webpack_require__.p + "3e7d6589295ed960175d.jpg";
-;// CONCATENATED MODULE: ./src/images/confectionery.jpg
-const confectionery_namespaceObject = __webpack_require__.p + "b0a359f565718bf4c0e9.jpg";
-;// CONCATENATED MODULE: ./src/images/dairyproducts.jpg
-const dairyproducts_namespaceObject = __webpack_require__.p + "76d044d1b078637cb0a2.jpg";
-;// CONCATENATED MODULE: ./src/images/explosive.jpg
-const explosive_namespaceObject = __webpack_require__.p + "5ebbbee44ca7fb6b65a5.jpg";
-;// CONCATENATED MODULE: ./src/images/frozenfood.jpg
-const frozenfood_namespaceObject = __webpack_require__.p + "29b7dadcd60cbbe6e303.jpg";
-;// CONCATENATED MODULE: ./src/images/lexative.jpg
-const lexative_namespaceObject = __webpack_require__.p + "5694a4e74913ba2f73eb.jpg";
-;// CONCATENATED MODULE: ./src/images/mining.jpg
-const mining_namespaceObject = __webpack_require__.p + "f58d08106ca6a9fe4d8c.jpg";
-;// CONCATENATED MODULE: ./src/images/oilandgas.jpg
-const oilandgas_namespaceObject = __webpack_require__.p + "2ed66312f3f6abc49ad1.jpg";
-;// CONCATENATED MODULE: ./src/images/paper.jpg
-const paper_namespaceObject = __webpack_require__.p + "6e373ac524b8bd609e89.jpg";
-;// CONCATENATED MODULE: ./src/images/petfood.jpg
-const petfood_namespaceObject = __webpack_require__.p + "badf9ce890fe69194874.jpg";
-;// CONCATENATED MODULE: ./src/images/petroleum1.jpg
-const petroleum1_namespaceObject = __webpack_require__.p + "40830ee8f1cdc6f877c4.jpg";
-;// CONCATENATED MODULE: ./src/images/pharmacueticals.jpg
-const pharmacueticals_namespaceObject = __webpack_require__.p + "b3ebdb06b600cfaa7ce0.jpg";
-;// CONCATENATED MODULE: ./src/images/sausage.jpg
-const sausage_namespaceObject = __webpack_require__.p + "bab2049bdc3891330db2.jpg";
-;// CONCATENATED MODULE: ./src/images/textile.jpg
-const textile_namespaceObject = __webpack_require__.p + "236594ea1eb8919fb66c.jpg";
+;// CONCATENATED MODULE: ./src/images/wheat.jpg?as=webp
+const wheatas_webp_namespaceObject = __webpack_require__.p + "2f21028ba56426533932.webp";
+;// CONCATENATED MODULE: ./src/images/bakery.jpg?as=webp
+const bakeryas_webp_namespaceObject = __webpack_require__.p + "ec35c2642f064c65597f.webp";
+;// CONCATENATED MODULE: ./src/images/beverages.jpg?as=webp
+const beveragesas_webp_namespaceObject = __webpack_require__.p + "16bc2d8d7dab280db768.webp";
+;// CONCATENATED MODULE: ./src/images/confectionery.jpg?as=webp
+const confectioneryas_webp_namespaceObject = __webpack_require__.p + "42ebfcc722fcd49215c7.webp";
+;// CONCATENATED MODULE: ./src/images/dairyproducts.jpg?as=webp
+const dairyproductsas_webp_namespaceObject = __webpack_require__.p + "4525089f99159db6f696.webp";
+;// CONCATENATED MODULE: ./src/images/explosive.jpg?as=webp
+const explosiveas_webp_namespaceObject = __webpack_require__.p + "4bf8b4d840ef1b403a52.webp";
+;// CONCATENATED MODULE: ./src/images/frozenfood.jpg?as=webp
+const frozenfoodas_webp_namespaceObject = __webpack_require__.p + "1997e8b586607e989c07.webp";
+;// CONCATENATED MODULE: ./src/images/lexative.jpg?as=webp
+const lexativeas_webp_namespaceObject = __webpack_require__.p + "eeb8c7b1b1513c116c40.webp";
+;// CONCATENATED MODULE: ./src/images/mining.jpg?as=webp
+const miningas_webp_namespaceObject = __webpack_require__.p + "99ed17a6d48101dbad0c.webp";
+;// CONCATENATED MODULE: ./src/images/oilandgas.jpg?as=webp
+const oilandgasas_webp_namespaceObject = __webpack_require__.p + "389340acbca34667d41b.webp";
+;// CONCATENATED MODULE: ./src/images/paper.jpg?as=webp
+const paperas_webp_namespaceObject = __webpack_require__.p + "e2c3c5f74375fd985742.webp";
+;// CONCATENATED MODULE: ./src/images/petfood.jpg?as=webp
+const petfoodas_webp_namespaceObject = __webpack_require__.p + "b23fb413caee8e280cc2.webp";
+;// CONCATENATED MODULE: ./src/images/petroleum1.jpg?as=webp
+const petroleum1as_webp_namespaceObject = __webpack_require__.p + "3d5b28d6bf7bba663f3b.webp";
+;// CONCATENATED MODULE: ./src/images/pharmacueticals.jpg?as=webp
+const pharmacueticalsas_webp_namespaceObject = __webpack_require__.p + "45fe1d542228a20e0ec8.webp";
+;// CONCATENATED MODULE: ./src/images/sausage.jpg?as=webp
+const sausageas_webp_namespaceObject = __webpack_require__.p + "9aee4d7f8c21969a514c.webp";
+;// CONCATENATED MODULE: ./src/images/textile.jpg?as=webp
+const textileas_webp_namespaceObject = __webpack_require__.p + "cdf1ccfedf710fb5b2be.webp";
 ;// CONCATENATED MODULE: ./src/pages/Home/utils.ts
 
 
@@ -45903,7 +45903,7 @@ const IndustrialGrade = [
         uses: "Drilling fluids",
         functions: "As a surfactant to form a viscous pseudo-plastic sol",
         properties: "Thickening agent, fluid-loss controlling agent",
-        imageURL: petroleum1_namespaceObject,
+        imageURL: petroleum1as_webp_namespaceObject,
         rows: 2,
         cols: 2,
     },
@@ -45913,7 +45913,7 @@ const IndustrialGrade = [
         uses: "Hydraulic Fracturing",
         functions: "To carry the proppant, binder",
         properties: "Visco-elasticity, viscosity, suspension, turbulence, mobility, friction reduction",
-        imageURL: oilandgas_namespaceObject,
+        imageURL: oilandgasas_webp_namespaceObject,
         rows: 2,
     },
     {
@@ -45922,7 +45922,7 @@ const IndustrialGrade = [
         uses: "Conditioning of minerals and ores",
         functions: "Liquid-solid separation during extraction of precious ores, depressant for talc or insoluble gangue mined along with minerals and ores",
         properties: "As a flocculant and froth flotation agent",
-        imageURL: mining_namespaceObject,
+        imageURL: miningas_webp_namespaceObject,
         rows: 2,
     },
     {
@@ -45931,7 +45931,7 @@ const IndustrialGrade = [
         uses: "Wool sizing, cotton, rayon silk, carpet printing",
         functions: "Reduces warp breakage, reduces dusting while sizing",
         properties: "Excellent film forming and thickening properties",
-        imageURL: textile_namespaceObject,
+        imageURL: textileas_webp_namespaceObject,
         rows: 2,
     },
     {
@@ -45940,7 +45940,7 @@ const IndustrialGrade = [
         uses: "Water-resistant ammonium nitrate stick explosives and slurry explosives",
         functions: "As a waterproofing agent after mixing with ammonium nitrate, nitroglycerin, etc.",
         properties: "Better gelling agent, thickener, water blocking properties",
-        imageURL: explosive_namespaceObject,
+        imageURL: explosiveas_webp_namespaceObject,
         rows: 2,
     },
     {
@@ -45949,7 +45949,7 @@ const IndustrialGrade = [
         uses: "Photographic printing papers, kraft paper",
         functions: "Imparts improved erosive and writing properties, improves sheet formation, makes surface denser for printing",
         properties: "Binding agent, pulp hydration",
-        imageURL: paper_namespaceObject,
+        imageURL: paperas_webp_namespaceObject,
         rows: 2,
         cols: 2,
     },
@@ -45961,7 +45961,7 @@ const FoodGrade = [
         uses: "Tablets and capsules",
         functions: "A binder or disintegrator in tablets, controlled drug delivery systems",
         properties: "Soluble dietary fibre, swelling behaviour",
-        imageURL: pharmacueticals_namespaceObject,
+        imageURL: pharmacueticalsas_webp_namespaceObject,
         rows: 2,
         cols: 2,
     },
@@ -45971,7 +45971,7 @@ const FoodGrade = [
         uses: "Laxatives",
         functions: "As a main ingredient",
         properties: "Bulking agent",
-        imageURL: lexative_namespaceObject,
+        imageURL: lexativeas_webp_namespaceObject,
         rows: 2,
     },
     {
@@ -45980,7 +45980,7 @@ const FoodGrade = [
         uses: "Ice creams, soft serves, frozen cakes",
         functions: "Controls crystal growth, freezing point, prevents moisture loss, reduces freezer burn",
         properties: "Water retention ability, ice crystal inhibitor",
-        imageURL: frozenfood_namespaceObject,
+        imageURL: frozenfoodas_webp_namespaceObject,
         rows: 2,
     },
     {
@@ -45989,7 +45989,7 @@ const FoodGrade = [
         uses: "Yoghurt, cheese, mousse, desserts, etc.",
         functions: "Improving texture after sterlisation",
         properties: "Stabilizer, texture improvment",
-        imageURL: dairyproducts_namespaceObject,
+        imageURL: dairyproductsas_webp_namespaceObject,
         rows: 2,
     },
     {
@@ -45998,7 +45998,7 @@ const FoodGrade = [
         uses: "Cake, sweets, bread & buns",
         functions: "Prolonged shelf life, moisture retention",
         properties: "Free-water absorber, stickiness preventer",
-        imageURL: bakery_namespaceObject,
+        imageURL: bakeryas_webp_namespaceObject,
         rows: 2,
     },
     {
@@ -46007,7 +46007,7 @@ const FoodGrade = [
         uses: "Milk replacer, veterinary preparations",
         functions: "Granulating and suspending agent",
         properties: "As a viscosifier",
-        imageURL: petfood_namespaceObject,
+        imageURL: petfoodas_webp_namespaceObject,
         rows: 2,
         cols: 2,
     },
@@ -46017,7 +46017,7 @@ const FoodGrade = [
         uses: "Chocolates, jellies",
         functions: "Viscosity and bloom control",
         properties: "Glazing agent, moisture retention, viscosifier",
-        imageURL: confectionery_namespaceObject,
+        imageURL: confectioneryas_webp_namespaceObject,
         rows: 2,
         cols: 2,
     },
@@ -46027,7 +46027,7 @@ const FoodGrade = [
         uses: "Soft drinks, fruit juices, alcoholic drinks",
         functions: "Viscosity control, improves mouth feel",
         properties: "Viscosifier",
-        imageURL: beverages_namespaceObject,
+        imageURL: beveragesas_webp_namespaceObject,
         rows: 2,
         cols: 2,
     },
@@ -46037,7 +46037,7 @@ const FoodGrade = [
         uses: "Pickles, Salad dressings, sauce",
         functions: "Improves free flowing properties",
         properties: "Emulsion stabilizer, thickening agent",
-        imageURL: sausage_namespaceObject,
+        imageURL: sausageas_webp_namespaceObject,
         rows: 2,
         cols: 4,
     },
@@ -46073,7 +46073,7 @@ function Home() {
         setIsClickedDictionary((prev) => (Object.assign(Object.assign({}, prev), { [id]: !prev[id] })));
     };
     return ((0,jsx_runtime.jsxs)(jsx_runtime.Fragment, { children: [(0,jsx_runtime.jsx)(Container_Container, Object.assign({ sx: {
-                    backgroundImage: `url('${wheat_namespaceObject}')`,
+                    backgroundImage: `url('${wheatas_webp_namespaceObject}')`,
                     height: "50vh",
                     backgroundPositionY: "10%",
                     width: "100%",
@@ -46318,10 +46318,10 @@ const Avatar = /*#__PURE__*/react.forwardRef(function Avatar(inProps, ref) {
 });
  false ? 0 : void 0;
 /* harmony default export */ const Avatar_Avatar = (Avatar);
-;// CONCATENATED MODULE: ./src/images/manufacturing.jpg
-const manufacturing_namespaceObject = __webpack_require__.p + "71d9cfbae7129cae2018.jpg";
-;// CONCATENATED MODULE: ./src/images/research.jpg
-const research_namespaceObject = __webpack_require__.p + "05be6c1617f35354d918.jpg";
+;// CONCATENATED MODULE: ./src/images/manufacturing.jpg?as=webp
+const manufacturingas_webp_namespaceObject = __webpack_require__.p + "b87cbbdc5a15ce65590c.webp";
+;// CONCATENATED MODULE: ./src/images/research.jpg?as=webp
+const researchas_webp_namespaceObject = __webpack_require__.p + "11b0518a57ef51df0612.webp";
 ;// CONCATENATED MODULE: ./src/pages/Manufacturing/index.tsx
 
 
@@ -46338,7 +46338,7 @@ const Tests = [
     },
 ];
 function Manufacturing() {
-    return ((0,jsx_runtime.jsx)(Container_Container, { children: (0,jsx_runtime.jsxs)(Grid_Grid, Object.assign({ container: true, item: true, spacing: 4, direction: "column" }, { children: [(0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true, justifyContent: "center" }, { children: (0,jsx_runtime.jsx)(Box_Box, { component: "img", src: manufacturing_namespaceObject, alt: "Manufacture", width: "60%" }) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: "Jugal Hydrocoloids is committed to continue being a renowned and trusted brand for its exemplary quality of products. Our greatest assets are our qualified, accomplished and clued up R&D team, and quality assurance system." })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: "All our products have precursors that are naturally produced and procured directly from the farmers. Further, we have instituted a simple yet effective QC system which comprises of thorough testing at 3 stages: raw material testing, in-process testing, and finished product testing. The company\u2019s manufacturing unit is also fully equipped with state-of-the-art physico-chemical and microbiological laboratories to carry out stringent quality checks." })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: "Following quality checks are performed for our products wherever applicable:" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(TableContainer_TableContainer, Object.assign({ component: Paper_Paper }, { children: (0,jsx_runtime.jsxs)(Table_Table, { children: [(0,jsx_runtime.jsx)(TableHead_TableHead, { children: (0,jsx_runtime.jsxs)(TableRow_TableRow, { children: [(0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: "Type" })), (0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: "Specifics" }))] }) }), (0,jsx_runtime.jsx)(TableBody_TableBody, { children: Tests.map(({ type, specifics }) => ((0,jsx_runtime.jsxs)(TableRow_TableRow, { children: [(0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: type })), (0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: specifics }))] }, type))) })] }) })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: "The company houses a full-fledged R&D department, run by skilled specialists. The department is persistently engaged in developing and modifying products in order to ensure better performance and fulfillment of our customers' needs." })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true, justifyContent: "center" }, { children: (0,jsx_runtime.jsx)(Box_Box, { component: "img", src: research_namespaceObject, alt: "R&D", width: "60%" }) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: "Why should you choose Jugal Hydrocoloids?" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ item: true }, { children: (0,jsx_runtime.jsxs)(List_List, { children: [(0,jsx_runtime.jsxs)(ListItem_ListItem, { children: [(0,jsx_runtime.jsx)(ListItemIcon_ListItemIcon, { children: (0,jsx_runtime.jsx)(Avatar_Avatar, { children: "1" }) }), (0,jsx_runtime.jsx)(ListItemText_ListItemText, { children: "Strict physical, chemical and microbiological testing to ensure high quality standards." })] }, 1), (0,jsx_runtime.jsxs)(ListItem_ListItem, { children: [(0,jsx_runtime.jsx)(ListItemIcon_ListItemIcon, { children: (0,jsx_runtime.jsx)(Avatar_Avatar, { children: "2" }) }), (0,jsx_runtime.jsx)(ListItemText_ListItemText, { children: "Tailor-made manufacturing and packaging as per the customer\u2019s requirements." })] }, 2), (0,jsx_runtime.jsxs)(ListItem_ListItem, { children: [(0,jsx_runtime.jsx)(ListItemIcon_ListItemIcon, { children: (0,jsx_runtime.jsx)(Avatar_Avatar, { children: "3" }) }), (0,jsx_runtime.jsx)(ListItemText_ListItemText, { children: "Safe, in-time delivery from our manufacturing units to the destination ports." })] }, 3), (0,jsx_runtime.jsxs)(ListItem_ListItem, { children: [(0,jsx_runtime.jsx)(ListItemIcon_ListItemIcon, { children: (0,jsx_runtime.jsx)(Avatar_Avatar, { children: "4" }) }), (0,jsx_runtime.jsx)(ListItemText_ListItemText, { children: "Commitment to conduct business with professionalism, respect and integrity." })] }, 4)] }) }))] })) }));
+    return ((0,jsx_runtime.jsx)(Container_Container, { children: (0,jsx_runtime.jsxs)(Grid_Grid, Object.assign({ container: true, item: true, spacing: 4, direction: "column" }, { children: [(0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true, justifyContent: "center" }, { children: (0,jsx_runtime.jsx)(Box_Box, { component: "img", src: manufacturingas_webp_namespaceObject, alt: "Manufacture", width: "60%" }) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: "Jugal Hydrocoloids is committed to continue being a renowned and trusted brand for its exemplary quality of products. Our greatest assets are our qualified, accomplished and clued up R&D team, and quality assurance system." })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: "All our products have precursors that are naturally produced and procured directly from the farmers. Further, we have instituted a simple yet effective QC system which comprises of thorough testing at 3 stages: raw material testing, in-process testing, and finished product testing. The company\u2019s manufacturing unit is also fully equipped with state-of-the-art physico-chemical and microbiological laboratories to carry out stringent quality checks." })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: "Following quality checks are performed for our products wherever applicable:" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(TableContainer_TableContainer, Object.assign({ component: Paper_Paper }, { children: (0,jsx_runtime.jsxs)(Table_Table, { children: [(0,jsx_runtime.jsx)(TableHead_TableHead, { children: (0,jsx_runtime.jsxs)(TableRow_TableRow, { children: [(0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: "Type" })), (0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: "Specifics" }))] }) }), (0,jsx_runtime.jsx)(TableBody_TableBody, { children: Tests.map(({ type, specifics }) => ((0,jsx_runtime.jsxs)(TableRow_TableRow, { children: [(0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: type })), (0,jsx_runtime.jsx)(TableCell_TableCell, Object.assign({ align: "center" }, { children: specifics }))] }, type))) })] }) })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: "The company houses a full-fledged R&D department, run by skilled specialists. The department is persistently engaged in developing and modifying products in order to ensure better performance and fulfillment of our customers' needs." })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true, justifyContent: "center" }, { children: (0,jsx_runtime.jsx)(Box_Box, { component: "img", src: researchas_webp_namespaceObject, alt: "R&D", width: "60%" }) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ container: true, item: true }, { children: (0,jsx_runtime.jsx)(Typography_Typography, Object.assign({ variant: "body1", align: "justify" }, { children: "Why should you choose Jugal Hydrocoloids?" })) })), (0,jsx_runtime.jsx)(Grid_Grid, Object.assign({ item: true }, { children: (0,jsx_runtime.jsxs)(List_List, { children: [(0,jsx_runtime.jsxs)(ListItem_ListItem, { children: [(0,jsx_runtime.jsx)(ListItemIcon_ListItemIcon, { children: (0,jsx_runtime.jsx)(Avatar_Avatar, { children: "1" }) }), (0,jsx_runtime.jsx)(ListItemText_ListItemText, { children: "Strict physical, chemical and microbiological testing to ensure high quality standards." })] }, 1), (0,jsx_runtime.jsxs)(ListItem_ListItem, { children: [(0,jsx_runtime.jsx)(ListItemIcon_ListItemIcon, { children: (0,jsx_runtime.jsx)(Avatar_Avatar, { children: "2" }) }), (0,jsx_runtime.jsx)(ListItemText_ListItemText, { children: "Tailor-made manufacturing and packaging as per the customer\u2019s requirements." })] }, 2), (0,jsx_runtime.jsxs)(ListItem_ListItem, { children: [(0,jsx_runtime.jsx)(ListItemIcon_ListItemIcon, { children: (0,jsx_runtime.jsx)(Avatar_Avatar, { children: "3" }) }), (0,jsx_runtime.jsx)(ListItemText_ListItemText, { children: "Safe, in-time delivery from our manufacturing units to the destination ports." })] }, 3), (0,jsx_runtime.jsxs)(ListItem_ListItem, { children: [(0,jsx_runtime.jsx)(ListItemIcon_ListItemIcon, { children: (0,jsx_runtime.jsx)(Avatar_Avatar, { children: "4" }) }), (0,jsx_runtime.jsx)(ListItemText_ListItemText, { children: "Commitment to conduct business with professionalism, respect and integrity." })] }, 4)] }) }))] })) }));
 }
 
 ;// CONCATENATED MODULE: ./node_modules/@react-spring/rafz/dist/react-spring-rafz.esm.js
@@ -50882,8 +50882,8 @@ const Parallax = react.memo(react.forwardRef((props, ref) => {
 
 
 
-;// CONCATENATED MODULE: ./src/images/guar-gum-powder.jpg
-const guar_gum_powder_namespaceObject = __webpack_require__.p + "83d5ec335d2b66017903.jpg";
+;// CONCATENATED MODULE: ./src/images/guar-gum-powder.jpg?as=webp
+const guar_gum_powderas_webp_namespaceObject = __webpack_require__.p + "cac8834cd0be34d4abf2.webp";
 // EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/pages/Products/index.css
 var Products = __webpack_require__(9482);
 ;// CONCATENATED MODULE: ./src/pages/Products/index.css
@@ -50926,31 +50926,31 @@ const products = [
         title: "Guar Gum Powder",
         para1: "Guar Gum powder is widely used in industrial applications. It is popular as a stabilizer, thickener and suspending agent because of several qualities like high viscosity, quick hydration in cold water, stability at high pressure and easy-to-handle and environmental friendly nature.",
         para2: "Guar Gum power is used for a myriad of purposes in several industries including construction, textile, cosmetics, pharmaceuticals, paper, oil well drilling, mining and explosive.",
-        imageURL: guar_gum_powder_namespaceObject,
+        imageURL: guar_gum_powderas_webp_namespaceObject,
     },
     {
         title: "Guar Splits",
         para1: "The Guar Gum Splits is basically the endosperm part of the Guar seed which is commercially extracted from the seeds by a mechanical process of cracking, roasting, differential attrition, sieving and polishing. The seeds are crack opened and the germ is separated from the endosperm.",
         para2: "Guar Gum Splits with its versatile inherent properties is used all over the globe with different utilities in many industries like Petroleum (Oil drilling), textile, printing, food pharma, cosmetic, toiletries paper, tanneries, mining, explosives, pet food etc.",
-        imageURL: guar_gum_powder_namespaceObject,
+        imageURL: guar_gum_powderas_webp_namespaceObject,
     },
     {
         title: "Guar Churi",
         para1: "Guar Churi is the residual product derived from the milling of Guar seed and removal of Guar Gum and basically constitutes the germ and the hull part of the seed. Churi is available either as husk or powder texture. It is considered to be one of the most nutritious ingredients for animals that are also rich in protein.",
         para2: "It is used extensively as cattle feed due to its nutritional value.",
-        imageURL: guar_gum_powder_namespaceObject,
+        imageURL: guar_gum_powderas_webp_namespaceObject,
     },
     {
         title: "Guar Korma",
         para1: "Guar seeds are processed for the production of Guar Gum and the by-products produced during this process are called Guar Korma Meal and Guar Meal Churi. The Guar Korma is available in granular form, whereas the Guar Churi is available in powder form.",
         para2: "Guar Korma is primarily used as an important raw material in the production of animal feeds, especially for cattle, fish, poultry, swine, etc.",
-        imageURL: guar_gum_powder_namespaceObject,
+        imageURL: guar_gum_powderas_webp_namespaceObject,
     },
     {
         title: "Guar Protein",
         para1: "Guar proteins have excellent water and fat-binding properties. The protein concentrate is extracted from the Guar seeds by steaming, toasting, splitting and micronisation.",
         para2: "Guar protein can be used as a high-value source of nutritional proteins and energy in feed for young animals, such as piglet feed and milk replacers, as well as aquafeed, poultry feed and pet food.",
-        imageURL: guar_gum_powder_namespaceObject,
+        imageURL: guar_gum_powderas_webp_namespaceObject,
     },
 ];
 function Products_Products() {
